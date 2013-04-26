@@ -28,7 +28,7 @@ fork https://github.com/freebsd/freebsd
     git clone git@github.com:<your name>/freebsd.git
     cd freebsd
     cp ../fixlicense.pl ./ && ./fixlicense.pl
-    git commit -m "Fixed a few minor typos in license headers"
+    git commit -am "Fixed a few minor typos in license headers"
     git push
 
 Open a pull request!
